@@ -5,19 +5,18 @@
 //Метод, заменяющий все дублирующиеся символы на ')', а все одиночные на '('
 std::string Converter::convert(std::string text) {
     /*Сам алгоритм проверки на дубликаты будет производиться просто при помощи помещения в коллекцию map,
-     *которая не принимает дубликаты, а перезаписывает их, возвращая при этом false. К тому же эта коллекция
-     *также будет хранить в значении(second) было ли вхождение единственным, да и поиск в ней быстрый.*/
+     *в которой будут храниться символы и единое ли было их вхождение, да и поиск в ней быстрый.*/
     std::map<char, Met> map;
 
     for (char c : text) {
         //Так как необходима нечувствительность к регистру, символ приводится к строчному
         c = tolower(c);
-        //Метод insert вернёт false в second'е, если вхождение не было первым
-        bool isFirstEntry = (map.insert(std::pair<char, Met>(c, Met::SYMBOL_MET_ONCE))).second;
-        if (!isFirstEntry) {
-            /*Далее потребуется потенциально 2 обращения к коллекции map, так
-             *что лучше сделать итератор, чтобы не крутить метод find дважды*/
-            std::map<char, Met>::iterator iter = map.find(c);
+
+        std::map<char, Met>::iterator iter = map.find(c);
+        if (iter == map.end()) {
+            map.insert(std::pair<char, Met>(c, Met::SYMBOL_MET_ONCE));
+        }
+        else {
             /*Если значение(second) элемента map уже равно SYMBOL_MET_SEVERAL_TIMES,
              *то нет нужды лишний раз обращаться к коллекции*/
             if (iter->second == Met::SYMBOL_MET_ONCE)
