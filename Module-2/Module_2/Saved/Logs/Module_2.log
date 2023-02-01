@@ -8525,3 +8525,6 @@ Script Stack (0 frames):
 [2023.02.01-18.23.32:600][208]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2023.02.01-18.23.33:912][208]LogUObjectHash: Compacting FUObjectHashTables data took  25.75ms
 [2023.02.01-18.23.38:557][209]LogPlayLevel: Display: Destroying online subsystem :Context_141
+[2023.02.01-18.56.28:247][ 67]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.02.01-18.56.28:847][ 68]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.02.01-18.57.08:358][185]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
