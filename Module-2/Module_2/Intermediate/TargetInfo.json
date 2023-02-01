@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Module_2",
+			"Path": "E:\\Unreal project\\Test-task-FNTASTIC\\Module-2\\Module_2\\Source\\Module_2.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Module_2Editor",
+			"Path": "E:\\Unreal project\\Test-task-FNTASTIC\\Module-2\\Module_2\\Source\\Module_2Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

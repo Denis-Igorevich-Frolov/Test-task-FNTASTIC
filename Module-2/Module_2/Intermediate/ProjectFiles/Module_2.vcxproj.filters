@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Module_2.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F7EB96F0-CE85-4436-B56A-CBA96B48FC24}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Module_2.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Module_2Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{8D12420A-1CF9-47E8-8DED-2D7D31CD2AD5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Module_2">
+      <UniqueIdentifier>{845DC889-185B-4E6A-98D8-0114B434BACD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Module_2\Module_2.Build.cs">
+      <Filter>Source\Module_2</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Module_2\Module_2.cpp">
+      <Filter>Source\Module_2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Module_2\Module_2.h">
+      <Filter>Source\Module_2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Module_2\Module_2GameModeBase.cpp">
+      <Filter>Source\Module_2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Module_2\Module_2GameModeBase.h">
+      <Filter>Source\Module_2</Filter>
+    </ClInclude>
+    <Filter Include="Source\Module_2\WalkingStrategy">
+      <UniqueIdentifier>{392DC242-D624-4A38-8DA3-6121E7CB9B22}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Module_2\WalkingStrategy\WalkingStrategy.cpp">
+      <Filter>Source\Module_2\WalkingStrategy</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Module_2\WalkingStrategy\WalkingStrategy.h">
+      <Filter>Source\Module_2\WalkingStrategy</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

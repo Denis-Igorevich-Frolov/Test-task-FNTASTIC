@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\Unreal project\\Test-task-FNTASTIC\\Module-2\\Module_2\\Source\\Module_2\\Module_2.Build.cs",
+		"E:\\Unreal project\\Test-task-FNTASTIC\\Module-2\\Module_2\\Source\\Module_2.Target.cs",
+		"E:\\Unreal project\\Test-task-FNTASTIC\\Module-2\\Module_2\\Source\\Module_2Editor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}
