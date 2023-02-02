@@ -916,3 +916,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.02.02-02.32.42:290][720]AssetCheck: New page: Asset Save: multiple assets
 [2023.02.02-02.32.42:291][720]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
 [2023.02.02-02.32.42:291][720]LogContentValidation: Display: Validating World /Game/Maps/Minimal_Default.Minimal_Default
+[2023.02.02-02.34.40:543][857]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2023.02.02-02.34.56:678][713]LogSlate: Window 'Project Settings' being destroyed
+[2023.02.02-02.34.56:683][713]LogSlate: Window 'Project Settings' being destroyed
+[2023.02.02-02.34.57:875][777]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.02.02-02.34.57:897][777]LogSavePackage: Moving '../../../../Unreal project/Test-task-FNTASTIC/Module-2/Module_2/Saved/Minimal_Default5508D3854D3EB632E2D3FAAE4C7EDA74.tmp' to '../../../../Unreal project/Test-task-FNTASTIC/Module-2/Module_2/Content/Maps/Minimal_Default.umap'
+[2023.02.02-02.34.57:906][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Minimal_Default_BuiltData" FILE="../../../../Unreal project/Test-task-FNTASTIC/Module-2/Module_2/Content/Maps/Minimal_Default_BuiltData.uasset" SILENT=true
+[2023.02.02-02.34.57:928][777]LogSavePackage: Moving '../../../../Unreal project/Test-task-FNTASTIC/Module-2/Module_2/Saved/Minimal_Default_BuiltData23771BA64F7A6E4489110C8B588A3EDD.tmp' to '../../../../Unreal project/Test-task-FNTASTIC/Module-2/Module_2/Content/Maps/Minimal_Default_BuiltData.uasset'
+[2023.02.02-02.34.57:938][777]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.02-02.34.57:938][777]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2023.02.02-02.34.57:938][777]LogContentValidation: Display: Validating World /Game/Maps/Minimal_Default.Minimal_Default
+[2023.02.02-02.35.32:959][731]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
